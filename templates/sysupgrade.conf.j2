@@ -1,0 +1,10 @@
+#
+# {{ ansible_managed }}
+#
+
+## This file contains files and directories that should
+## be preserved during an upgrade.
+
+{% for dir in list_of_directories %}
+{{ dir }}
+{% endfor %}
