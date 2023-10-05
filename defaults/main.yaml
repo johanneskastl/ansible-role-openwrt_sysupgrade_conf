@@ -1,0 +1,6 @@
+---
+# openwrt_sysupgrade_conf/defaults/main.yml
+
+list_of_directories:
+  - '/root/'
+  - '/home'
