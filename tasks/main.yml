@@ -1,0 +1,10 @@
+---
+# openwrt_sysupgrade_conf/tasks/main.yml
+
+- name: 'Create /etc/sysupgrade.conf'
+  ansible.builtin.template:
+    src: 'sysupgrade.conf.j2'
+    dest: '/etc/sysupgrade.conf'
+    owner: 'root'
+    group: 'root'
+    mode: '0644'
